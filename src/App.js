@@ -24,7 +24,6 @@ const foodDB = {
   ]
 };
 const foodTypes = Object.keys(foodDB);
-// console.log(foodTypes);
 
 export default function App() {
   const [foodType, setFoodType] = useState("Indian");
@@ -53,7 +52,6 @@ export default function App() {
           </button>
         ))}
       </div>
-      {/* <hr style={{ width: "30%" }} /> */}
       <hr />
 
       <div style={{ textAlign: "left" }}>
@@ -66,7 +64,8 @@ export default function App() {
                 padding: "1rem",
                 border: "1px solid #D1D5DB",
                 width: "70%",
-                margin: "1rem 0rem",
+                margin: "1rem 0rem",     
+                background: "grey",
                 borderRadius: "0.5rem"
               }}
             >
